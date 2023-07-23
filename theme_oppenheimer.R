@@ -47,7 +47,7 @@ theme_oppenheimer <- function() {
       axis.title = element_text(color=text_color_oppenheimer, size=12),
       legend.key        = element_rect(fill  = "transparent", color = NA),
       legend.text       = element_text(color = text_color_oppenheimer),
-      legend.title      = element_text(face  = "bold", text_color_oppenheimer),
+      legend.title      = element_text(text_color_oppenheimer),
       panel.background = element_rect(fill = panel_color_oppenheimer),
       panel.border = element_rect(fill = NA, color = '#2e3440', linewidth=1.5),
       panel.grid        = element_line(color = "#3B4252"),
