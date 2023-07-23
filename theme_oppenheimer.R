@@ -54,7 +54,11 @@ theme_oppenheimer <- function() {
       title = element_text(face = "bold", color = text_color_oppenheimer)
     )
 }
-scale_fill_oppenheimer_gradient <- ggplot2::scale_fill_gradient(low = "#d8dee9", high = "#3b4252")
-scale_color_oppenheimer_gradient <- ggplot2::scale_color_gradient(low = "#d8dee9", high = "#3b4252")
+scale_fill_oppenheimer_gradient <- function(){
+  ggplot2::scale_fill_gradient(low = "#d8dee9", high = "#3b4252")
+  }
+scale_color_oppenheimer_gradient <- function(){
+  ggplot2::scale_color_gradient(low = "#d8dee9", high = "#3b4252")
+  }
 
 
