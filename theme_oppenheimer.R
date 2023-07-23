@@ -41,8 +41,7 @@ oppenheimer_palette <- function(num_cols, var_type = c("discrete", "continuous")
 
 
 theme_oppenheimer <- function() { 
-  theme_minimal(base_size = 12) %+replace% 
-    theme(
+    ggplot2::theme(
       axis.text  = element_text(color = text_color_oppenheimer, size=12),
       axis.title = element_text(color = text_color_oppenheimer, size=12),
       legend.key        = element_rect(fill  = "transparent", color = NA),
