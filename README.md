@@ -12,6 +12,7 @@ source_url("https://raw.githubusercontent.com/TokiLiam/theme_oppenheimer/main/th
 <img width="534" alt="image" src="https://github.com/TokiLiam/theme_oppenheimer/blob/main/Oppenheimer_test.png?raw=true">
 
 ## Create example plot
+```
 df1 <- data.frame("x" = sample(1:50, 20), "y" = sample(1:50, 20), "z" = runif(20, 0, 1))
 
 ggplot(data=df1, aes(x=x, y=y, color=z))+
@@ -21,4 +22,4 @@ ggplot(data=df1, aes(x=x, y=y, color=z))+
   theme_oppenheimer()+
   ggtitle("Oppenheimer test")+
   labs(x="Variable X", y="Variable y")
-    
+```
