@@ -43,11 +43,11 @@ oppenheimer_palette <- function(num_cols, var_type = c("discrete", "continuous")
 theme_oppenheimer <- function() { 
   theme_minimal(base_size = 12) %+replace% 
     theme(
-      axis.text  = element_text(color=text_color_oppenheimer, size=12),
-      axis.title = element_text(color=text_color_oppenheimer, size=12),
+      axis.text  = element_text(color = text_color_oppenheimer, size=12),
+      axis.title = element_text(color = text_color_oppenheimer, size=12),
       legend.key        = element_rect(fill  = "transparent", color = NA),
       legend.text       = element_text(color = text_color_oppenheimer),
-      legend.title      = element_text(text_color_oppenheimer),
+      legend.title      = element_text(color = text_color_oppenheimer),
       panel.background = element_rect(fill = panel_color_oppenheimer),
       panel.border = element_rect(fill = NA, color = '#2e3440', linewidth=1.5),
       panel.grid        = element_line(color = "#3B4252"),
